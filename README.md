@@ -39,7 +39,7 @@
 
 데이터 전처리를 위한 transform을 정의한다. 데이터 증강 및 노이즈를 위한 변형을 준다.
 
-<img src = "./images/transform.png" width="30%" height="30%">
+<img src = "./images/transform.png" width="50%">
 
 
 
