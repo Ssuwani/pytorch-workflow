@@ -17,7 +17,7 @@
 
 각종 라이브러리를 불러온다. 
 
-- Code
+- Code Example
 
   ```python
   import torch
@@ -39,7 +39,7 @@
 
 데이터 전처리를 위한 transform을 정의한다. 데이터 증강 및 노이즈를 위한 변형을 준다.
 
-<img src="/Users/suwan/Library/Application Support/typora-user-images/image-20210529174611139.png" alt="image-20210529174611139" style="zoom:50%;" />
+<img src="./images/transform.png" alt="image-20210529174611139" style="zoom:50%;" />
 
 pytorch를 배우다면 자연스럽게 torchvision의 transforms를 사용하게 되는데 albumentations 라는 라이브러리가 더 좋은 성능과 편의성을 준다는 의견도 있다.
 
@@ -47,14 +47,20 @@ pytorch를 배우다면 자연스럽게 torchvision의 transforms를 사용하�
 - [Official albumentations](https://github.com/albumentations-team/albumentations)
 - [albumentations 소개](https://hoya012.github.io/blog/albumentation_tutorial/)
 
-```python
-transform_train = transforms.Compose([
-    # transforms.RandomCrop(32, padding=4),
-    # transforms.RandomHorizontalFlip(),
-    transforms.ToTensor(),
-    # transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
-])
-```
+
+
+- Code Example 
+
+  ```python
+  transform_train = transforms.Compose([
+      # transforms.RandomCrop(32, padding=4),
+      # transforms.RandomHorizontalFlip(),
+      transforms.ToTensor(),
+      # transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
+  ])
+  ```
+
+  
 
 
 
