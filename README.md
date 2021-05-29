@@ -39,7 +39,9 @@
 
 데이터 전처리를 위한 transform을 정의한다. 데이터 증강 및 노이즈를 위한 변형을 준다.
 
-<img src="./images/transform.png" alt="image-20210529174611139" style="zoom:25%;" />
+![drawing](./images/transform.png){ width=50% }
+
+
 
 pytorch를 배우다면 자연스럽게 torchvision의 transforms를 사용하게 되는데 albumentations 라는 라이브러리가 더 좋은 성능과 편의성을 준다는 의견도 있다.
 
