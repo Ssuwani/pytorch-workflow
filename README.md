@@ -13,7 +13,7 @@
 9. train
 10. test
 
-**1. Library Import **
+**1. Library Import**
 
 각종 라이브러리를 불러온다. 
 
